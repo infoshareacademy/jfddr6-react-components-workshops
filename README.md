@@ -9,3 +9,4 @@
 5.(dodatkowe) - wyniki operacji na stanie przekaż nowo stworzonym komponentom i wyświetl go w nich.
 6. Stwórz kolejny komponent będący footerem aplikacji i umieść go pod wcześniejszymi dwoma.
    a - Stwórz state który bedzie tablicą obiektów o jednej właściwości author, która bedzie stringiem. Przeiteruj po state i wyświetl wynik funkcji łączącej ten string z każdego biektu z losowym wyrazem tak aby powstało zdanie np: [{name: "Ania"}] => 'Ania is soooo coool' (tutaj dodaliśmy "soooo coooool" do każdej właściwości name z obiektów w naszej tablicy
+7. Stwórz w komponentach Left i Right button, który po kliknięciu uruchomi metode uaktualniającą stan odpowiadający za wyświetlanie drugiego stanu, z true na false i z false na true. Efektem końcowym ma byc naprzemienne wyświetlanie i ukrywanie danych z drugiego stanu
